@@ -103,3 +103,38 @@ body
  background-color: #3158d8;
  color: white;
 }
+@media screen and (max-width: 600px)
+{
+    .card:hover img
+    {
+        top: 50px;
+        left: 50%;
+        height: 400px;
+    }
+    .card .circle
+    
+    {
+        position: absolute;
+        top: -20%;
+        left: 10%;
+        width: 80%;
+        height: 140%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .card:hover .circle
+    {
+        top: 10%;
+    }
+    .card .content
+{
+    width: 80%;
+    height: 100%;
+}
+.card:hover .content
+{
+    top: 70%;
+    left: 7.5%;
+    text-align: center;
+}
+}
